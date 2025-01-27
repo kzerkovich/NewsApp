@@ -10,7 +10,7 @@ interface ApiService {
 	@GET("v2/everything")
 	suspend fun getNewsHeadlines(
 		@Query("domains") domains : String,
-		@Query("apiKey") apiKey : String = "fadc77920bb04059a994d810a1755cf8"
+		@Query("apiKey") apiKey : String = ""
 	) : Response<NewsResponse>
 
 }
