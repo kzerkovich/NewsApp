@@ -1,7 +1,15 @@
-A Pet application for getting relevant articles from the Habr website.
-The technology stack used:
-1) Jetpack Compose
-2) MVVM
-3) Coroutines, Flow
-4) Dagger-HILT
-5) Retrofit2
+# **NewsApp**
+
+Приложение для получения актуальных статей с главной страницы Хабра.
+
+## **Использованные технологии**
+
+В этом проекте использовались следующие технологии:
+
+- **Язык программирования**: Kotlin
+- **Фреймворки**: Dagger2, Retrofit2
+- **Библиотеки**: Android Jetpack
+- **Другое**: MVVM-архитектура, Coroutines, Flow
+
+## **Демонстрация работы**
+![Демонстрация работы проекта](https://github.com/kzerkovich/CommUNItyJava/blob/main/NewsApp.gif)
